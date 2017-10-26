@@ -1,0 +1,9 @@
+.nav > li > a{
+    color:white;
+    font-weight: bold;
+}
+.admin_page_header{
+    float: right;
+    color: white;
+    margin-top: 15px;
+}

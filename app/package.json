@@ -1,0 +1,8 @@
+{
+  "name": "BookStore",
+  "version": "0.0.1",
+  "root": "",
+  "site_urls":{
+    "index": "index.php"
+  }
+}

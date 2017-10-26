@@ -1,0 +1,10 @@
+{
+  "base": "../../",
+  "url": {
+    "index": "app/user/index.php"
+  },
+  "styles":{
+    
+  }
+
+}

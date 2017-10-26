@@ -1,0 +1,260 @@
+/* BEST SELLER STYLE and TOP RATED STYLE */
+.book-item {
+    padding: 0;
+    height: 400px;
+    overflow: hidden;
+}
+
+.book{
+    display: block;
+}
+
+.book-item img{
+    -webkit-transition-duration: 0.6s;
+    -moz-transition-duration: 0.6s;
+    -ms-transition-duration: 0.6s;
+    -o-transition-duration: 0.6s;
+    transition-duration: 0.6s;
+}
+
+.book-item:hover img{
+    -moz-transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+    opacity: 0.4;
+}
+
+.book-title-wrap {
+    margin-top: 15px;
+    width: 100%;
+    display: block;
+    height: 20%;
+    text-align: left;
+}
+
+.book-title {
+    display: block;
+    font-size: 1.2em;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.book-author {
+    display: block;
+    font-weight:lighter;
+    font-size: .9em;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.book-price {
+    margin-top: 10px;
+    border-radius: 4px;
+}
+.book-author, .book-price{
+    vertical-align: middle;
+}
+.best-price {
+    border:1px solid #3498DC;
+    text-align: center;
+    width: 50%;
+    color: #3498DC;
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: inset 0px 0px 2px 2px #FAFAFA;
+}
+
+.old-price {
+    margin-right: 10px;
+    text-decoration: line-through;
+    -moz-text-decoration: line-through;
+    color: rgba(0, 0, 0, 0.25);
+}
+
+.new-price {
+    color: #3498DC;
+    font-size: 1.3em;
+}
+
+.r {
+    height: 33%;
+    display: block;
+}
+
+.book {
+    overflow: hidden;
+}
+
+.book img {
+    width: 100% !important;
+    height: 250px !important;
+}
+
+.book-item:not(:first-child) {
+    padding-left: 10px;
+}
+
+.book-item:not(:last-child) {
+    padding-right: 10px;
+}
+
+.section-header {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    letter-spacing: 5px;
+}
+.center{
+    position: relative;
+    margin:auto;
+    text-align: center;
+}
+
+.day-row li{
+    display: inline-block;
+    margin: 20px;
+    width:100px;
+    height: 100px;
+    float: none;
+    padding:20px 10px 20px 10px;
+    border:1px solid #BABABA;
+    border-radius: 100px;
+}
+
+
+.day-leg{
+    display: block;
+    width:100%;
+    margin-top:3px;
+    margin-bottom: 3px;
+}
+
+.day-leg:not(:first-child){
+    font-size: .6em;
+}
+
+.day-leg:first-child{
+    font-size: 2em;
+    font-weight:bolder;
+    color: #3498DC;
+}
+
+/* ************************************************ */
+
+.news-item{
+    padding-bottom: 10px;
+}
+
+.news-wrapper img{
+    -webkit-transition-duration: 0.6s;
+    -moz-transition-duration: 0.6s;
+    -ms-transition-duration: 0.6s;
+    -o-transition-duration: 0.6s;
+    transition-duration: 0.6s;
+}
+
+.news-wrapper:hover img{
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    -o-transform: scale(1.3);
+    transform: scale(1.3);
+
+}
+
+.news-banner{
+    padding: 0;
+    height:150px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.news-body{
+    margin: 10px;
+}
+
+.news-continue{
+    display: block;
+    margin-bottom: 30px;
+}
+
+.news-date, .news-title, .news-text, .news-continue{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+.news-title{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.news-date, .news-text{
+    font-size: 0.9em;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.news-continue{
+    font-size: 0.9em;
+    font-weight: lighter;
+    color: #3498DC;
+}
+
+.news-banner>img{
+    width: 100%;
+    height:100%;
+}
+
+.cus-text{
+    display: block;
+    width: 40%;
+    position: relative;
+    margin:auto;
+    text-align: center;
+    margin-bottom: 30px;
+    color: rgba(0, 0, 0, 0.5);
+    font-style: oblique;
+}
+
+
+.cus-row{
+    text-align: center;
+    margin-bottom: 100px;
+    width: 100%;
+}
+
+.cus-item{
+    display: inline-block;
+    margin: 20px 60px 20px 60px;
+    width: 200px;
+}
+
+.cus-image {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 100px;
+    overflow: hidden;
+}
+
+.cus-image > img {
+    width: 100%;
+    height: 100%;
+}
+
+.cus-name, .cus-description {
+    display: inline-block;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.cus-name {
+    font-size: 1.2em;
+    font-weight: bold;
+    letter-spacing: 1px;
+}

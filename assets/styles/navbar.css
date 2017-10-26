@@ -1,0 +1,120 @@
+div.nav-container {
+    width: 100%;
+    text-align: center;
+    height: inherit;
+    background-color: #FAFAFA;
+    -moz-box-shadow: 0px 3px 2px 1px rgba(136, 136, 136, 0.6);
+    -webkit-box-shadow: 0px 2px 2px 1px rgba(136, 136, 136, 0.6);
+    box-shadow: 0px 2px 1px 1px rgba(136, 136, 136, 0.6);
+
+}
+
+span#navbar {
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    height: inherit;
+    color: rgba(0, 0, 0, 0.5);
+
+}
+
+span.nav-menu {
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: inherit;
+
+    border: 0px solid black;
+
+}
+
+.nav-menu a{
+    font-size: 1em;
+}
+
+span.nav-menu > a:hover {
+    border-bottom: 3px solid #3498DC;
+    color: #3498DC;
+    -moz-transition-duration: .6s;
+    -o-transition-duration: .6s;
+    transition-duration: .6s;
+}
+
+span.nav-menu > a {
+    display: inline-block;
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: black;
+    text-decoration-line: none !important;
+    font-family: "Avenir", "Nunito", "Lato", 'Palatino', 'Verdana', serif;
+    font-weight: lighter;
+
+    border-bottom: 3px solid #FAFAFA;
+}
+
+/* RESPONSIVE */
+@media (min-width: 768px) and (max-width: 979px) {
+
+}
+
+/* Small monitor */
+@media (max-width: 979px) {
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+    span.nav-menu {
+        display: block;
+        width: 100%;
+        margin:0;
+    }
+
+    span.nav-menu > a:hover {
+        border-bottom: 0px solid #3498DC;
+        -moz-transition-duration: .6s;
+        -o-transition-duration: .6s;
+        transition-duration: .6s;
+        background-color: #3498DC;
+        color: whitesmoke;
+    }
+
+    span#navbar{
+        width:100%;
+    }
+
+    span.nav-menu > a {
+        width: 100%;
+    }
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+    span.nav-menu {
+        display: block;
+        width: 100%;
+        margin:0;
+    }
+
+    span.nav-menu > a:hover {
+        border-bottom: 0px solid #3498DC;
+        -moz-transition-duration: .6s;
+        -o-transition-duration: .6s;
+        transition-duration: .6s;
+        background-color: #3498DC;
+        color: whitesmoke;
+    }
+
+    span#navbar{
+        width:100%;
+    }
+
+    span.nav-menu > a {
+        border-bottom: 0px solid #FAFAFA;
+        width: 100%;
+    }
+
+}

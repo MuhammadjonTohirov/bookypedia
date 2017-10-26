@@ -1,0 +1,164 @@
+.carousel-container{
+    position: relative;
+    width:100%;
+    height:300px;
+    margin: 0;
+    padding: 0;
+}
+
+.carousel-container img{
+    width: 100%;
+    height: 300px;
+    border: 3px dashed yellowgreen;
+}
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+    padding: 0;
+}
+
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor:pointer;
+    height: 13px;
+    width: 13px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.dot:hover {
+    background-color: #717171;
+}
+
+.active{
+    border-bottom: 2px solid #3498DC;
+    color: #3498DC;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+
+
+
+
+
+.body-container-1{
+    background-color: #FAFAFA;
+    width:100%;
+}
+
+.body-container-2{
+    width:100%;
+}
+
+.section-4{
+    padding: 0;
+}
+
+.table-u-c, div.row-u-c {
+    height: inherit;
+    padding: 0;
+    color: #3498DC;
+    font-family: "Avenir", "Nunito", "Lato", 'Palatino', 'Verdana', serif;
+    font-weight: lighter;
+}
+
+.u-c-header{
+    font-weight: normal;
+    font-size: 1.2em;
+    padding-bottom: 15px;
+}
+
+.u-c-item {
+    padding: 30px 10px 30px 15px;
+    margin:0;
+    border-left: 1px solid #BABABA;
+}
+
+.u-c-item{
+
+}
+
+.u-c-item:last-child{
+    border-right: 1px solid #BABABA;
+}
+
+
+.u-c-item img {
+    float: left;
+}

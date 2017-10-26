@@ -1,0 +1,138 @@
+#title {
+    font-family: "Avenir", "Nunito", "Lato", 'Palatino', 'Verdana', serif;
+    font-size: 25px;
+}
+/*
+#search-hold {
+    border-radius: 30px;
+    border: 1px solid #BABABA;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+*/
+
+div.row {
+    display: inline-block;
+    width: inherit;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+div#cart-user {
+    display: inline-block;
+}
+
+#searchbox {
+    height: 30px;
+    width: 500px;
+    border-radius: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    vertical-align: middle;
+    position: relative;
+    margin:auto;
+    font-family: "Avenir", "Nunito", "Lato", 'Palatino', 'Verdana', serif;
+    border: 1px solid #BABABA;
+    letter-spacing: 4px;
+}
+
+#searchbox:focus {
+    outline: none;
+    border-color: #3498DC;
+}
+
+span.banner-item {
+    height: inherit;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#cart-icon, #user-icon {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+div.col-left img, div.col-right img, div.col-middle img {
+    width: 25px;
+    height: 25px;
+}
+
+div.col-left {
+    display: block;
+    float: left;
+    height: inherit;
+}
+
+div.col-right {
+    display: block;
+    float: right;
+    height: inherit;
+}
+
+/* RESPONSIVE */
+@media (min-width: 768px) and (max-width: 979px) {
+
+}
+
+/* Small monitor */
+@media (max-width: 1000px) {
+    div.col-left, div.col-right {
+        display: block;
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    div.banner-container {
+        padding: 0;
+        text-align: center;
+    }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+    div.nav-row {
+        width: 100%;
+    }
+
+    div.col-left, div.col-right {
+        display: block;
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    div#cart-user {
+        display: block;
+        margin: 10px;
+        width: 100%;
+    }
+
+    #searchbox {
+        width: 80%;
+    }
+
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+    div.col-left, div.col-right {
+        display: block;
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    #searchbox {
+        width: 80%;
+    }
+}
+
+
+
+
+

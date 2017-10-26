@@ -1,0 +1,17 @@
+h4.section-header{
+    margin-top: 100px;
+}
+
+.days-table, .days-table .days{
+      border:1px solid red;
+}
+
+.best-author-box{
+    border:1px solid green;
+}
+
+.best-book img{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
